@@ -106,4 +106,18 @@ body {
               max-width: 300px;
               margin: 10px 0; 
             }
+            .profissao.div.nth.of.type(1) {
+                margin:auto;
+            }
+                
+        }
+
+        /* PARA TELAS MÉDIAS , COMO TABLETS */
+        @media (max-width: 768px){
+            .profissao-todos {
+                grid-template-columns:1fr 1fr; /* duas 
+                colunas em telas médias */
+                gap:20px;  /*espaço entre os cards */
+            }
+        
         }
